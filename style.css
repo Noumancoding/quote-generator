@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 60px;
+  margin: 0;
+}
+
+.contaner {
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  max-width: 400px;
+}
+
+#qoute {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#author {
+  color: rgb(0, 0, 0);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #1900ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
