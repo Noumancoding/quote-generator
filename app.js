@@ -1,8 +1,7 @@
 // Quote logic will be implemented here
 const quoteText = document.getElementById('quote');
 const authorText = document.getElementById('author');
-const newQuoteBtn = document.getElementById('new-quote');
-
+const newQuoteBtn = document.getElementById('new-quote'); // ✅ keep only once
 
 const quotes = [
   {
@@ -28,3 +27,5 @@ function showRandomQuote() {
 }
 
 showRandomQuote();
+
+newQuoteBtn.addEventListener('click', showRandomQuote);
