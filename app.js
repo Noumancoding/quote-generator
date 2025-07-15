@@ -18,3 +18,13 @@ const quotes = [
     author: "Winston Churchill"
   }
 ];
+
+function showRandomQuote() {
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  const quote = quotes[randomIndex];
+
+  quoteText.textContent = `"${quote.text}"`;
+  authorText.textContent = `– ${quote.author}`;
+}
+
+showRandomQuote();
